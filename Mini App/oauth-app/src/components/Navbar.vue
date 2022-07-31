@@ -10,15 +10,27 @@
     <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">Produk</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Partnership</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Academy</a>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Masuk</button>
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Daftar</button>
+        <button class="btn masuk btn-outline-success my-2 my-sm-0" type="submit">Masuk</button>
+        <button class="btn daftar btn-outline-success my-2 my-sm-0" type="submit">Daftar</button>
       </form>
     </div>
   </nav>
