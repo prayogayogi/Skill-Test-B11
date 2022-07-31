@@ -1,4 +1,9 @@
-const Fibonacci = (num) => {
+const Fibonacci = (val) => {
+  let num = 0;
+  for (i = 0; i < val.length; i++) {
+    num += val[i];
+  }
+
   if (num == 0) {
     console.log(0);
     return;
@@ -19,9 +24,9 @@ const Fibonacci = (num) => {
     third = first + second;
   }
   let ans = Math.abs(third - num) >= Math.abs(second - num) ? second : third;
-  console.log(ans);
+  console.log(ans - num);
 };
 
 // arr = [15,1,3]
-let N = 18;
+let N = [15, 1, 3];
 Fibonacci(N);
